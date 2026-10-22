@@ -1,0 +1,7 @@
+# dsh-settings-drag —— DSH bundle patch(挂载声明)
+# DSH 启动时按 bundle 层栈叠加各插件 patch,本文件把插件插入 Web profile 的配置树。
+# 安装:pnpm add file:<本目录绝对路径>(或 dsh plugin --profile desktop add file:<路径>),
+# 并把 "dsh-settings-drag" 加进 profile package.json 的 dsh.profile.bundles。
+- insert:
+    - id: settings-drag
+      name: dsh-settings-drag

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-settings-drag",
+  "version": "0.4.0",
+  "description": "DSH Web 设置面板自由拖动 + 缩放:导航/标题条拖动,右下角握角与右/底边缘缩放,双击归位,位置与尺寸本地记忆。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "settings",
+    "drag",
+    "resize"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "yangzhenyu0817",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangzhenyu0817/dsh-settings-drag.git"
+  },
+  "homepage": "https://github.com/yangzhenyu0817/dsh-settings-drag#readme",
+  "bugs": {
+    "url": "https://github.com/yangzhenyu0817/dsh-settings-drag/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+# 官方收录条目 —— 放到 awesome-dsh-plugin 仓库的:
+#   data/plugins/yangzhenyu0817__dsh-settings-drag.yml
+# 注意:不要加 npm/install/added 等字段(手写 npm: 会被校验拒绝;npm 映射由 registry 自动采集)
+url: https://github.com/yangzhenyu0817/dsh-settings-drag
+name: yangzhenyu0817/dsh-settings-drag
+category: ui
+description:
+  en: Moves and resizes the DeepSeek Harness settings panel; its position and size are remembered per browser.
+  zh: 让 DeepSeek Harness 的设置面板可以自由拖动与缩放，位置与尺寸按浏览器记忆。
